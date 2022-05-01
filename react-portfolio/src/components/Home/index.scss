@@ -1,0 +1,15 @@
+.contact-button {
+  // color: #ea5455;
+  color: #ea5455;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 50px;
+  padding: 10px 20px;
+  border: solid 2px #ea5455;
+  transition: 400ms ease-in-out;
+}
+.contact-button:hover {
+  color: white;
+  background-color: #ea5455;
+}

@@ -1,0 +1,139 @@
+.nav-bar {
+  background-color: #181818;
+  width: 80px;
+  position: fixed;
+  height: 100%;
+  top: 0;
+  z-index: 3;
+
+  .logo {
+    display: block;
+    margin: -10px 0 0 0;
+    padding: 5px 0;
+
+    img {
+      display: block;
+      margin-left: -45px;
+      width: 170px;
+      height: auto;
+    }
+  }
+
+  nav {
+    display: block;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    height: 250px;
+    margin-top: -90px;
+    width: 100%;
+
+    a {
+      font-size: 24px;
+      color: #4d4d4e;
+      display: block;
+      line-height: 50px;
+      height: 50px;
+      position: relative;
+      text-decoration: none;
+
+      i {
+        transition: all 0.3s ease-out;
+      }
+
+      &:hover {
+        color: white;
+
+        svg {
+          opacity: 0;
+        }
+        &:after {
+          opacity: 1;
+        }
+      }
+      &:after {
+        content: "";
+        font-size: 10px;
+        letter-spacing: 2px;
+        position: absolute;
+        bottom: 0;
+        display: block;
+        width: 100%;
+        text-align: center;
+        opacity: 0;
+
+        // -webkit-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+      }
+      &:first-child {
+        &:after {
+          content: "Home";
+        }
+      }
+    }
+    a.about-link {
+      &:after {
+        content: "About";
+      }
+    }
+    a.skills-link {
+      &:after {
+        content: "Skills";
+      }
+    }
+    a.myworks-link {
+      &:after {
+        content: "MyWorks";
+      }
+    }
+    a.contact-link {
+      &:after {
+        content: "Contact";
+      }
+    }
+    a.active {
+      svg {
+        color: white;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .nav-bar {
+    background-color: #181818;
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    top: 0;
+    z-index: 3;
+
+    img {
+      position: absolute;
+      top: -10%;
+      left: 5%;
+      width: 90px !important;
+      height: auto;
+      display: inline !important;
+    }
+    > nav {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      top: 16%;
+      a {
+        display: inline !important;
+        line-height: 20px;
+        height: 20px !important;
+        padding: 0 4%;
+        &:after {
+          position: absolute;
+          top: 16%;
+          left: -5%;
+          display: inline;
+          width: 100%;
+        }
+      }
+    }
+  }
+}

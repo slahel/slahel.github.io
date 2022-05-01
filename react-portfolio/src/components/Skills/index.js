@@ -10,9 +10,10 @@ import {
   faJs,
   faNpm,
   faBootstrap,
+  faFigma,
 } from "@fortawesome/free-brands-svg-icons";
 import VsCodelogo from "../../images/icons8-visual-studio-100.png";
-import GreenSock from "../../images/greensock_logo_icon_145217.svg";
+// import GreenSock from "../../images/greensock_logo_icon_145217.svg";
 
 export default function Skills() {
   const el = useRef();
@@ -42,15 +43,29 @@ export default function Skills() {
       <div className="text-side">
         <h1>Skills</h1>
         <p>
-          I started my training with SheCodes bootcamp, where I learned
-          HTML,CSS, JavaScript and React. I then perfected it with some course
-          on FreeCode Camp. Then carry on my React training with Scrimba course.
+          I first started my training with Codecademy and FreeCodecamp courses.
+          I then wanted a bit more structure and started a SheCodes Bootcamp.
+          Finally, I perfected my React skills with Scrimba.
         </p>
         <p>
-          Nec feugiat nisl pretium fusce id velit ut tortor. Pretium viverra
-          suspendisse potenti nullam ac tortor vitae purus. Elit sed vulputate
-          mi sit amet mauris commodo quis imperdiet. Libero justo laoreet sit
-          amet cursus sit.
+          These different formations allowed me to learn techniques with
+          different approaches, so I could get well-rounded and adaptable.
+        </p>
+        <p>
+          I studied{" "}
+          <span className="skills-name">
+            {" "}
+            HTML5, CSS3, Sass, JavaScript, React, Figma, Bootstrap, GreenSocks
+          </span>
+          , and more... Visit my{" "}
+          <a
+            href="https://www.linkedin.com/in/stephanie-lahellec-a2893411a/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            LinkedIn
+          </a>{" "}
+          profile for more or you can check out my cv at this link.
         </p>
       </div>
 
@@ -75,7 +90,12 @@ export default function Skills() {
           alt="bootstrap"
         />
         <img src={VsCodelogo} className="brand-icon vsCode" alt="VsCode" />
-        <img src={GreenSock} className="brand-icon greenSock" alt="greenSock" />
+        <FontAwesomeIcon
+          icon={faFigma}
+          className="brand-icon figma"
+          alt="figma"
+        />
+        {/* <img src={GreenSock} className="brand-icon greenSock" alt="greenSock" /> */}
       </div>
     </div>
   );

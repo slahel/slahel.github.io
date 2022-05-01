@@ -31,10 +31,12 @@ export default function MyWorks() {
       <div className="text-center ">
         <h1>My Works</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar
-          pellentesque habitant morbi tristique senectus et netus. At in tellus
-          integer feugiat scelerisque varius morbi
+          Please check out my previous works, you can also have a look at my
+          <a href="https://github.com/slahel" target="_blank" rel="noreferrer">
+            {" "}
+            Github{" "}
+          </a>
+          profile
         </p>
       </div>
       <ul className="portfolio" ref={el}>

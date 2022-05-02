@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.74acb042.css",
-    "main.js": "/react-portfolio/static/js/main.813af15e.js",
-    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
-    "static/media/pic-profile-sketch.png": "/react-portfolio/static/media/pic-profile-sketch.c7dc95b8eb49960cf746.png",
-    "static/media/meme-generator.png": "/react-portfolio/static/media/meme-generator.9f9a6197e4e94c4a4311.png",
-    "static/media/travel-journal.png": "/react-portfolio/static/media/travel-journal.d6abb3c2532b324bd22a.png",
-    "static/media/weather.png": "/react-portfolio/static/media/weather.cdac9ec342c36ea96827.png",
-    "static/media/business-card.png": "/react-portfolio/static/media/business-card.53d4ff8ea58a8ccf2f4b.png",
-    "static/media/quiz.png": "/react-portfolio/static/media/quiz.96085a2e91752a93dff9.png",
-    "static/media/dictionary.png": "/react-portfolio/static/media/dictionary.d24ade2ff2e0fdb4ce36.png",
-    "static/media/undraw_web_development.svg": "/react-portfolio/static/media/undraw_web_development.e5fdcb0aca5994bfe2d3ec0f8d803f3d.svg",
-    "static/media/LogoLC.png": "/react-portfolio/static/media/LogoLC.9ac41a65a3cc173ba632.png",
-    "static/media/undraw_personal_email.svg": "/react-portfolio/static/media/undraw_personal_email.8fd5fed1a691f335cd8b08acae69162e.svg",
-    "static/media/Vector.svg": "/react-portfolio/static/media/Vector.2d40385211e2a85722fea4efb45a8e92.svg",
-    "index.html": "/react-portfolio/index.html",
-    "main.74acb042.css.map": "/react-portfolio/static/css/main.74acb042.css.map",
-    "main.813af15e.js.map": "/react-portfolio/static/js/main.813af15e.js.map",
-    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+    "main.css": "/static/css/main.74acb042.css",
+    "main.js": "/static/js/main.f4057d56.js",
+    "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
+    "static/media/pic-profile-sketch.png": "/static/media/pic-profile-sketch.c7dc95b8eb49960cf746.png",
+    "static/media/meme-generator.png": "/static/media/meme-generator.9f9a6197e4e94c4a4311.png",
+    "static/media/travel-journal.png": "/static/media/travel-journal.d6abb3c2532b324bd22a.png",
+    "static/media/weather.png": "/static/media/weather.cdac9ec342c36ea96827.png",
+    "static/media/business-card.png": "/static/media/business-card.53d4ff8ea58a8ccf2f4b.png",
+    "static/media/quiz.png": "/static/media/quiz.96085a2e91752a93dff9.png",
+    "static/media/dictionary.png": "/static/media/dictionary.d24ade2ff2e0fdb4ce36.png",
+    "static/media/undraw_web_development.svg": "/static/media/undraw_web_development.e5fdcb0aca5994bfe2d3ec0f8d803f3d.svg",
+    "static/media/LogoLC.png": "/static/media/LogoLC.9ac41a65a3cc173ba632.png",
+    "static/media/undraw_personal_email.svg": "/static/media/undraw_personal_email.8fd5fed1a691f335cd8b08acae69162e.svg",
+    "static/media/Vector.svg": "/static/media/Vector.2d40385211e2a85722fea4efb45a8e92.svg",
+    "index.html": "/index.html",
+    "main.74acb042.css.map": "/static/css/main.74acb042.css.map",
+    "main.f4057d56.js.map": "/static/js/main.f4057d56.js.map",
+    "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.74acb042.css",
-    "static/js/main.813af15e.js"
+    "static/js/main.f4057d56.js"
   ]
 }

@@ -5,27 +5,8 @@ import MemeApp from "../../images/apps/meme-generator.png";
 import JournalApp from "../../images/apps/travel-journal.png";
 import WeatherApp from "../../images/apps/weather.png";
 import CardApp from "../../images/apps/business-card.png";
-import gsap from "gsap";
-import { useRef, useEffect } from "react";
 
 export default function MyWorks() {
-  const el = useRef();
-  const q = gsap.utils.selector(el);
-
-  useEffect(() => {
-    gsap.fromTo(
-      q(".app"),
-      { opacity: 0, scale: 0.1 },
-      {
-        delay: 1,
-        opacity: 1,
-        scale: 1,
-        duration: 2,
-        stagger: 0.25,
-      }
-    );
-  }, [q]);
-
   return (
     <div className="container">
       <div className="text-center ">
@@ -39,7 +20,7 @@ export default function MyWorks() {
           profile
         </p>
       </div>
-      <ul className="portfolio" ref={el}>
+      <ul className="portfolio">
         <div className="app weather">
           <a
             href="https://fervent-gates-1fb2e1.netlify.app"

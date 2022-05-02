@@ -1,6 +1,6 @@
 import "./index.scss";
-import { useEffect, useRef } from "react";
-import gsap from "gsap";
+// import { useEffect, useRef } from "react";
+// import gsap from "gsap-trial";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCss3,
@@ -13,31 +13,8 @@ import {
   faFigma,
 } from "@fortawesome/free-brands-svg-icons";
 import VsCodelogo from "../../images/icons8-visual-studio-100.png";
-// import GreenSock from "../../images/greensock_logo_icon_145217.svg";
 
 export default function Skills() {
-  const el = useRef();
-  const q = gsap.utils.selector(el);
-
-  useEffect(() => {
-    gsap.fromTo(
-      q(".brand-icon"),
-      { opacity: 0, scale: 0.1 },
-      {
-        delay: 1,
-        opacity: 0.8,
-        scale: 1,
-        duration: 2,
-
-        stagger: {
-          amount: 1,
-          grid: "auto",
-          from: "center",
-        },
-      }
-    );
-  }, [q]);
-
   return (
     <div className="container">
       <div className="text-side">
@@ -69,7 +46,7 @@ export default function Skills() {
         </p>
       </div>
 
-      <div className="icon-group" ref={el}>
+      <div className="icon-group">
         <FontAwesomeIcon
           icon={faHtml5}
           className="brand-icon html"

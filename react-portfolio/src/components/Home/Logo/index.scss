@@ -16,6 +16,7 @@
     left: auto;
     top: 10%;
     bottom: 0;
+    animation: fadeIn 4s forwards;
   }
 
   .logo-group {
@@ -27,6 +28,9 @@
       bottom: 0;
       width: 700px;
       height: auto;
+      opacity: 0;
+      animation: fadeIn 3s forwards;
+      animation-delay: 1.8s;
     }
     .logo-L {
       position: absolute;
@@ -36,6 +40,9 @@
       bottom: 0;
       width: 700px;
       height: auto;
+      opacity: 0;
+      animation: fadeIn 3s forwards;
+      animation-delay: 2.4s;
     }
     .logo-S {
       position: absolute;
@@ -45,6 +52,9 @@
       bottom: 0;
       width: 700px;
       height: auto;
+      opacity: 0;
+      animation: fadeIn 3s forwards;
+      animation-delay: 2.1s;
     }
   }
 }

@@ -30,32 +30,50 @@
     height: auto;
     grid-column: span 7;
     grid-row: span 2;
+    opacity: 0;
+    animation: fadeIn 1.5s forwards;
+    animation-delay: 1s;
   }
   .dico {
     max-width: 100%;
     height: auto;
     grid-column: span 5;
     grid-row: span 3;
+    opacity: 0;
+    animation: fadeIn 1.5s forwards;
+    animation-delay: 1.2s;
   }
   .card {
     max-width: 100%;
     grid-column: span 3;
     grid-row: span 2;
+    opacity: 0;
+    animation: fadeIn 1.5s forwards;
+    animation-delay: 1.8s;
   }
   .journal {
     max-width: 100%;
     grid-column: span 5;
     grid-row: span 4;
+    opacity: 0;
+    animation: fadeIn 1.5s forwards;
+    animation-delay: 1.4s;
   }
   .quiz {
     max-width: 100%;
     grid-column: span 7;
     grid-row: span 3;
+    opacity: 0;
+    animation: fadeIn 1.5s forwards;
+    animation-delay: 1.6s;
   }
   .meme {
     max-width: 100%;
     grid-column: span 9;
     grid-row: span 3;
+    opacity: 0;
+    animation: fadeIn 1.5s forwards;
+    animation-delay: 2s;
   }
   a {
     text-decoration: none; /* no underline */

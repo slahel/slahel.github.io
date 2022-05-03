@@ -38,9 +38,9 @@ export default function Contact() {
       <div className="text-side">
         <h1>Contact Me</h1>
         <p>
-          I am interested in opportunities, if you have a request or a question,
-          don't hesitate to contact me using the form below or through my social
-          media.
+          I am currently open to opportunities, if you'd like to get in touch,
+          please don't hesitate to contact me using the form below, or through
+          my social media.
         </p>
         <div className="contact-form ">
           <form ref={form} onSubmit={sendEmail}>

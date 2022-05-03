@@ -13,8 +13,52 @@
     width: 80px;
     height: auto;
   }
+  .sass {
+    opacity: 0;
+    animation: fadeIn 3s forwards;
+    animation-delay: 1.7s;
+  }
+
+  .css {
+    opacity: 0;
+    animation: fadeIn 3s forwards;
+    animation-delay: 2.1s;
+  }
+  .react {
+    opacity: 0;
+    animation: fadeIn 3s forwards;
+    animation-delay: 2.1s;
+  }
+  .npm {
+    opacity: 0;
+    animation: fadeIn 3s forwards;
+    animation-delay: 2.1s;
+  }
+  .vsCode {
+    opacity: 0;
+    animation: fadeIn 3s forwards;
+    animation-delay: 2.1s;
+  }
+  .html {
+    opacity: 0;
+    animation: fadeIn 3s forwards;
+    animation-delay: 2.5s;
+  }
+  .js {
+    opacity: 0;
+    animation: fadeIn 3s forwards;
+    animation-delay: 2.5s;
+  }
+  .bootstrap {
+    opacity: 0;
+    animation: fadeIn 3s forwards;
+    animation-delay: 2.5s;
+  }
   .figma {
     height: 80px;
+    opacity: 0;
+    animation: fadeIn 3s forwards;
+    animation-delay: 2.5s;
   }
 }
 

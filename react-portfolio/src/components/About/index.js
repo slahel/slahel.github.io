@@ -27,9 +27,9 @@ export default function About() {
           roles were client-facing, so they taught me a lot about consumer
           expectations and behaviours. Being in high-pressure environments, I
           also developed skills that enabled me to analyse and adapt to
-          unexpected events in a very short span of time. I finally learned the
-          importance to communicate with my colleagues and listen to implement a
-          more efficient work environment.
+          unexpected events in a very short span of time. I finally learned the
+          importance of listening and communicating clearly with my colleagues
+          to implement a more efficient work environment.
         </p>
         <p>
           If I had to describe myself in a few words, I would say that I am a

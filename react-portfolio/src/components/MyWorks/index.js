@@ -10,7 +10,7 @@ export default function MyWorks() {
   return (
     <div className="container">
       <div className="text-center ">
-        <h1>My Works</h1>
+        <h1>My Work</h1>
         <p>
           You can find examples of my previous work below, and also on my{" "}
           <a href="https://github.com/slahel" target="_blank" rel="noreferrer">

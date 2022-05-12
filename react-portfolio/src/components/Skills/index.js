@@ -25,11 +25,11 @@ export default function Skills() {
           Finally, I perfected my React skills with Scrimba.
         </p>
         <p>
-          These different formations allowed me to learn techniques with
-          different approaches, so I could get well-rounded and adaptable.
+          These different studies allowed me to learn techniques with different
+          approaches, so I could get well-rounded and adaptable.
         </p>
         <p>
-          I studied{" "}
+          I code in{" "}
           <span className="skills-name">
             {" "}
             HTML5, CSS3, Sass, JavaScript, React, Figma, Bootstrap, GreenSocks

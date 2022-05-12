@@ -10,10 +10,10 @@ export default function Home() {
           Hello everyone <br /> I'm Stephanie
         </h1>
         <h2>Web Developer | Front End Developer</h2>
-        <h4>
+        {/* <h4>
           Welcome to my portfolio! I'm a former Sales and Marketing Manager
           seeking opportunities in the Tech Industry.
-        </h4>
+        </h4> */}
         <Link to="/contact" className="contact-button">
           Contact Me
         </Link>

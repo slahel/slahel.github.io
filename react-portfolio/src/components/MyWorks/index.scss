@@ -14,43 +14,42 @@
   grid-template-rows: 3;
   grid-gap: 2rem;
 
-  .app img {
-    border-radius: 3px;
-    width: 100%;
-    height: 100%;
-    box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem,
-      rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
-  }
-  img:hover {
-    opacity: 0.3;
-  }
-  &:after {
-    opacity: 1;
-  }
-  &:after {
-    content: "App";
-    font-size: 22px;
-    font-weight: 700;
-    letter-spacing: 2px;
-    position: absolute;
-    display: block;
-    width: 100%;
-    top: 10%;
-    text-align: center;
-    opacity: 0;
-    transition: all 0.3s ease-out;
-  }
+  .app {
+    img {
+      border-radius: 3px;
+      width: 100%;
+      height: 100%;
+      box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem,
+        rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+    }
+    &:hover {
+      color: white;
 
-  // &:hover {
-  //   color: white;
-
-  //   img {
-  //     opacity: 0.3;
-  //   }
-  //   &:after {
-  //     opacity: 1;
-  //   }
-  // }
+      img {
+        opacity: 0.6;
+      }
+      &:after {
+        opacity: 1;
+      }
+    }
+    &:after {
+      content: "";
+      font-size: 22px;
+      letter-spacing: 2px;
+      position: absolute;
+      bottom: 0;
+      display: block;
+      width: 100%;
+      text-align: center;
+      opacity: 0;
+      transition: all 0.3s ease-out;
+    }
+    &:first-child {
+      &:after {
+        content: "Home";
+      }
+    }
+  }
 
   .weather {
     max-width: 100%;

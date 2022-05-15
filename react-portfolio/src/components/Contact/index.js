@@ -1,6 +1,6 @@
 import "./index.scss";
-import { useRef } from "react";
-import emailjs from "@emailjs/browser";
+//import { useRef } from "react";
+//import emailjs from "@emailjs/browser";
 import emailPic from "../../images/undraw_personal_email.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -10,28 +10,28 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 export default function Contact() {
-  const form = useRef();
+  // const form = useRef();
 
-  function sendEmail(event) {
-    event.preventdefault();
+  // function sendEmail(event) {
+  //   event.preventdefault();
 
-    emailjs
-      .sendForm(
-        "service_6i2dzre",
-        "template_7sbf8dc",
-        form.current,
-        "8RWyIM3QRIyTNDw9z"
-      )
-      .then(
-        () => {
-          alert("Message successfully sent!");
-          window.location.reload(false);
-        },
-        () => {
-          alert("Failed to send the message, please try again");
-        }
-      );
-  }
+  //   emailjs
+  //     .sendForm(
+  //       "service_6i2dzre",
+  //       "template_7sbf8dc",
+  //       form.current,
+  //       "8RWyIM3QRIyTNDw9z"
+  //     )
+  //     .then(
+  //       () => {
+  //         alert("Message successfully sent!");
+  //         window.location.reload(false);
+  //       },
+  //       () => {
+  //         alert("Failed to send the message, please try again");
+  //       }
+  //     );
+  // }
 
   return (
     <div className="container">
@@ -39,10 +39,19 @@ export default function Contact() {
         <h1>Contact Me</h1>
         <p>
           I am currently open to opportunities, if you'd like to get in touch,
-          please don't hesitate to contact me using the form below, or through
-          my social media.
+          please don't hesitate to contact me by email or through my social
+          media.
         </p>
-        <div className="contact-form ">
+        <h3>
+          <a
+            href="mailto:Steph.lahellec@gmail.com"
+            rel="noreferrer"
+            className="email"
+          >
+            Steph.lahellec@gmail.com
+          </a>
+        </h3>
+        {/* <div className="contact-form ">
           <form ref={form} onSubmit={sendEmail}>
             <ul>
               <li className="contact-info">
@@ -83,7 +92,7 @@ export default function Contact() {
               </li>
             </ul>
           </form>
-        </div>
+        </div> */}
       </div>
       <div className="social-media">
         <h2>

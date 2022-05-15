@@ -74,6 +74,13 @@ textarea {
   color: #3f3d56;
   background-color: white;
 }
+
+.email {
+  font-size: 32px;
+  font-weight: 800;
+  text-decoration: none;
+  color: #ea5455;
+}
 .social-media {
   position: absolute;
   top: 2%;
@@ -88,7 +95,7 @@ textarea {
   animation: backInRight 2s 1.2s;
   animation-fill-mode: forwards;
   h2 {
-    font-size: 35px;
+    font-size: 32px;
     font-weight: 800;
     padding: 15px 50px 0 50px;
   }
@@ -126,8 +133,6 @@ textarea {
     width: 100%;
     text-align: center;
     opacity: 0;
-
-    // -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
   }
 }

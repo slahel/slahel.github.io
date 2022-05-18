@@ -42,7 +42,15 @@ export default function Skills() {
           >
             LinkedIn
           </a>{" "}
-          profile for more or you can check out my cv at this link.
+          profile for more or you can check out my cv at this{" "}
+          <a
+            href="https://drive.google.com/file/d/1FhO-YhjpME88lfJiZAj8hVCfLnVYb4FS/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+          >
+            link
+          </a>
+          .
         </p>
       </div>
 

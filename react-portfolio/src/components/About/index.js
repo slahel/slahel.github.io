@@ -1,8 +1,6 @@
 import "./index.scss";
 import sketch from "../../images/pic-profile-sketch.png";
-
 import picBack from "../../images/undraw_web_development.svg";
-// import photo from "../../images/imagePROFILE.png";
 
 export default function About() {
   return (
@@ -42,7 +40,15 @@ export default function About() {
           >
             LinkedIn
           </a>{" "}
-          profile for more details.
+          profile or my{" "}
+          <a
+            href="https://drive.google.com/file/d/1FhO-YhjpME88lfJiZAj8hVCfLnVYb4FS/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Resume
+          </a>{" "}
+          for more details.
         </p>
       </div>
       <div className="pic-side">

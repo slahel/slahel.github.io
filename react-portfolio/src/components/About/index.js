@@ -42,7 +42,7 @@ export default function About() {
           </a>{" "}
           profile or my{" "}
           <a
-            href="https://drive.google.com/file/d/1LzmjZetYj8rLSTCdHmdPjpnWEii30apd/view?usp=sharing"
+            href="https://drive.google.com/file/d/10BKTHzJOk-XtRPxTfYJ4xLV-CA5wK83E/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >

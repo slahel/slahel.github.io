@@ -44,7 +44,7 @@ export default function Skills() {
           </a>{" "}
           profile for more or you can check out my cv at this{" "}
           <a
-            href="https://drive.google.com/file/d/10BKTHzJOk-XtRPxTfYJ4xLV-CA5wK83E/view?usp=sharing"
+            href="https://drive.google.com/file/d/1IUJ8PGNuffSiDOhcpvv0Wvl7mRqZzCz5/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >

@@ -137,6 +137,61 @@ textarea {
   }
 }
 
+.github:hover {
+  &:after {
+    opacity: 1;
+  }
+}
+.github {
+  &:after {
+    content: "Github : StephanieLah#6274";
+    padding: 10px;
+    width: 250px !important;
+    background-color: white;
+    border: 1px solid #ea5455;
+    border-radius: 3px;
+    color: #ea5455;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    position: absolute;
+    top: -80%;
+    left: 45%;
+    display: block;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.3s ease-out;
+  }
+}
+
+.linkedin:hover {
+  &:after {
+    opacity: 1;
+  }
+}
+.linkedin {
+  &:after {
+    content: "LinkedIn";
+    padding: 10px;
+    width: 250px !important;
+    background-color: white;
+    border: 1px solid #ea5455;
+    border-radius: 3px;
+    color: #ea5455;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    position: absolute;
+    top: -80%;
+    left: 45%;
+    display: block;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.3s ease-out;
+  }
+}
 .email-pic {
   width: 350px;
   height: auto;

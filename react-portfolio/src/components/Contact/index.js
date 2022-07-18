@@ -105,7 +105,11 @@ export default function Contact() {
         <div className="icons-group">
           {" "}
           <a href="https://github.com/slahel" target="_blank" rel="noreferrer">
-            <FontAwesomeIcon icon={faGithub} color="white" className="icon" />
+            <FontAwesomeIcon
+              icon={faGithub}
+              color="white"
+              className="icon github"
+            />
           </a>
           <span href="/" target="_blank" rel="noreferrer" className="discord">
             <FontAwesomeIcon
@@ -119,7 +123,11 @@ export default function Contact() {
             target="_blank"
             rel="noreferrer"
           >
-            <FontAwesomeIcon icon={faLinkedin} color="white" className="icon" />
+            <FontAwesomeIcon
+              icon={faLinkedin}
+              color="white"
+              className="icon linkedin"
+            />
           </a>
         </div>
       </div>

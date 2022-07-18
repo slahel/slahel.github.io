@@ -1,6 +1,9 @@
 import "./index.scss";
 import { Link } from "react-router-dom";
 import Logo from "./Logo";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function Home() {
   return (
@@ -19,6 +22,32 @@ export default function Home() {
         </Link>
       </div>
       <Logo />
+      <footer>
+        <div className="icons-group">
+          {" "}
+          <a href="https://github.com/slahel" target="_blank" rel="noreferrer">
+            <FontAwesomeIcon icon={faGithub} color="white" className="icon" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/stephanie-lahellec-a2893411a/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon icon={faLinkedin} color="white" className="icon" />
+          </a>
+        </div>
+        <Link to="/contact">
+          <div className="next-page">
+            <span>Next Page</span>
+            <br />
+            <FontAwesomeIcon
+              icon={faChevronDown}
+              color="white"
+              className="icon"
+            />
+          </div>
+        </Link>
+      </footer>
     </div>
   );
 }

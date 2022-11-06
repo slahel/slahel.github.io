@@ -114,7 +114,7 @@ export default function Contact() {
           <span href="/" target="_blank" rel="noreferrer" className="discord">
             <FontAwesomeIcon
               icon={faDiscord}
-              color="grey"
+              color="white"
               className="icon discord"
             />
           </span>

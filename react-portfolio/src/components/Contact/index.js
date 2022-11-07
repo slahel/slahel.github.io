@@ -117,18 +117,7 @@ export default function Contact() {
               color="white"
               className="icon discord"
             />
-          </span>
-          <a
-            href="https://www.linkedin.com/in/stephanie-lahellec-a2893411a/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FontAwesomeIcon
-              icon={faLinkedin}
-              color="white"
-              className="icon linkedin"
-            />
-          </a>
+
         </div>
       </div>
       <img src={emailPic} alt="email" className="email-pic" />

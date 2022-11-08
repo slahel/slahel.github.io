@@ -8,6 +8,7 @@ import {
   faEye,
   faEnvelope,
   faGear,
+  faBars,
 } from "@fortawesome/free-solid-svg-icons";
 
 export default function Sidebar() {
@@ -51,6 +52,14 @@ export default function Sidebar() {
           to="/contact"
         >
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
+        </NavLink>
+        <NavLink
+          exact="true"
+          activeclassname="active"
+          className="contact-link"
+          to="/contact"
+        >
+          <FontAwesomeIcon icon={faBars} color="#4d4d4e" />
         </NavLink>
       </nav>
     </div>

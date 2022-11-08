@@ -115,20 +115,20 @@
     .hamburger-link {
       opacity: 1 !important;
       z-index: 2;
-      position: fixed;
+      display: block;
       position: absolute;
-      top: 0;
-      right: 1%;
-      width: 90px !important;
+      top: 0 !important;
+      right: 1% !important;
+
       height: auto;
       display: inline !important;
     }
 
     img {
       position: absolute;
-      top: 2%;
-      left: 5%;
-      width: 90px !important;
+      top: 0 !important;
+      left: 5% !important;
+      width: 85px !important;
       height: auto;
       display: inline !important;
     }

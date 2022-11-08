@@ -27,7 +27,9 @@
     height: 250px;
     margin-top: -90px;
     width: 100%;
-
+    .hamburger-link {
+      opacity: 0;
+    }
     a {
       font-size: 24px;
       color: #4d4d4e;
@@ -89,6 +91,11 @@
         content: "Contact";
       }
     }
+    a.hamburger-link {
+      &::after {
+        content: "Menu";
+      }
+    }
     a.active {
       svg {
         color: white;
@@ -105,10 +112,21 @@
     height: 10%;
     top: 0;
     z-index: 3;
+    .hamburger-link {
+      opacity: 1 !important;
+      z-index: 2;
+      position: fixed;
+      position: absolute;
+      top: 0;
+      right: 1%;
+      width: 90px !important;
+      height: auto;
+      display: inline !important;
+    }
 
     img {
       position: absolute;
-      top: -10%;
+      top: 2%;
       left: 5%;
       width: 90px !important;
       height: auto;
@@ -119,6 +137,7 @@
       width: 100%;
       height: 100%;
       top: 16%;
+
       a {
         display: inline !important;
         line-height: 20px;

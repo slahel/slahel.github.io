@@ -56,10 +56,10 @@ export default function Sidebar() {
         <NavLink
           exact="true"
           activeclassname="active"
-          className="contact-link"
+          className="hamburger-link"
           to="/contact"
         >
-          <FontAwesomeIcon icon={faBars} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faBars} color="white" />
         </NavLink>
       </nav>
     </div>

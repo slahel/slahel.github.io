@@ -6,7 +6,7 @@
   top: 0;
   z-index: 3;
   .hamburger-link {
-    opacity: 0;
+    display: none;
   }
 
   .logo {
@@ -115,7 +115,7 @@
     top: 0;
     z-index: 3;
     .hamburger-link {
-      opacity: 1 !important;
+      display: block;
       z-index: 2;
       font-size: 35px;
       display: block;

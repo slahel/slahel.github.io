@@ -121,7 +121,7 @@
       width: 85px !important;
       height: auto !important;
       top: 20 !important;
-      right: 2% !important;
+      right: 1% !important;
       display: inline !important;
     }
 
@@ -135,20 +135,26 @@
     }
     > nav {
       background: #181818;
-      opacity: 0.8;
-      top: 10%;
+      opacity: 0.4;
+      top: 20%;
       width: 100%;
-      height: 50%;
+      height: auto;
+      padding: 5% 0;
       position: fixed;
 
       a {
-        line-height: 20px;
-        height: 20px !important;
-        padding: 0 4%;
+        line-height: 30px;
+        height: 30px !important;
+        padding: 0 12% !important;
+
         &:after {
+          opacity: 1;
+          font-size: 12px;
+          font-weight: 600;
+          padding-right: 30px !important;
           position: absolute;
           top: 16%;
-          left: -5%;
+          left: -10%;
           display: inline;
           width: 100%;
         }

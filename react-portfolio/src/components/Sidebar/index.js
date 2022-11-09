@@ -9,6 +9,7 @@ import {
   faEnvelope,
   faGear,
   faBars,
+  faClose,
 } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 
@@ -28,7 +29,7 @@ export default function Sidebar() {
       <Link className="logo" to="/">
         <img src={Logo} alt="logo" />
       </Link>
-      <nav>
+      <nav className={showMenu ? "mobile-menu" : ""}>
         <NavLink exact="true" activeclassname="active" to="/">
           <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
         </NavLink>
@@ -64,11 +65,19 @@ export default function Sidebar() {
         >
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
         </NavLink>
+        <FontAwesomeIcon
+          icon={faClose}
+          color="white"
+          size="3x"
+          onClick={() => setShowMenu(false)}
+          className="close-link"
+        />
       </nav>
 
       <FontAwesomeIcon
         icon={faBars}
         color="white"
+        size="3x"
         onClick={() => setShowMenu(true)}
         className="hamburger-link"
       />

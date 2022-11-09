@@ -2,7 +2,7 @@ import "./index.scss";
 import { Link } from "react-router-dom";
 import Logo from "./Logo";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
+//import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function Home() {
@@ -37,7 +37,7 @@ export default function Home() {
           </a>
         </div>
         <Link to="/contact">
-          <div className="next-page">
+          {/* <div className="next-page">
             <span>Next Page</span>
             <br />
             <FontAwesomeIcon
@@ -45,7 +45,7 @@ export default function Home() {
               color="white"
               className="icon"
             />
-          </div>
+          </div> */}
         </Link>
       </footer>
     </div>

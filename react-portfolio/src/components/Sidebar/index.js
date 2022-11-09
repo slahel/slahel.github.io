@@ -10,8 +10,10 @@ import {
   faGear,
   faBars,
 } from "@fortawesome/free-solid-svg-icons";
+import { useState } from "react";
 
 export default function Sidebar() {
+  const [showMenu, setShowMenu] = useState(false);
   return (
     // function myFunction() {
     //   var x = document.getElementById("myLinks");
@@ -67,7 +69,7 @@ export default function Sidebar() {
       <FontAwesomeIcon
         icon={faBars}
         color="white"
-        //onClick={() => setShowNav(true)}
+        onClick={() => setShowMenu(true)}
         className="hamburger-link"
       />
     </div>

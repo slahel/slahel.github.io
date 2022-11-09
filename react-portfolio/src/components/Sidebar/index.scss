@@ -111,32 +111,32 @@
     background-color: #181818;
     position: fixed;
     width: 100%;
-    height: 10%;
+    height: 60px;
     top: 0;
     z-index: 3;
     .hamburger-link {
       opacity: 1 !important;
       z-index: 2;
+      font-size: 35px;
       display: block;
       position: absolute;
-      width: 85px !important;
-      height: auto !important;
-      top: 20 !important;
-      right: 1% !important;
+      top: 10px !important;
+      right: 2% !important;
       display: inline !important;
     }
 
     img {
       position: absolute;
-      top: 0 !important;
-      left: 5% !important;
-      width: 85px !important;
+      z-index: 1;
+      top: -5px !important;
+      left: 25px !important;
+      width: 80px !important;
       height: auto;
       display: inline !important;
     }
     > nav {
       background: #181818;
-      opacity: 0.4;
+      opacity: 0.95;
       top: 20%;
       width: 100%;
       height: auto;

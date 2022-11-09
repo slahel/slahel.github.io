@@ -13,6 +13,15 @@ import {
 
 export default function Sidebar() {
   return (
+    // function myFunction() {
+    //   var x = document.getElementById("myLinks");
+    //   if (x.style.display === "block") {
+    //     x.style.display = "none";
+    //   } else {
+    //     x.style.display = "block";
+    //   }
+    // }
+
     <div className="nav-bar">
       <Link className="logo" to="/">
         <img src={Logo} alt="logo" />
@@ -54,14 +63,13 @@ export default function Sidebar() {
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
         </NavLink>
       </nav>
-      <NavLink
-        exact="true"
-        activeclassname="active"
+
+      <FontAwesomeIcon
+        icon={faBars}
+        color="white"
+        //onClick={() => setShowNav(true)}
         className="hamburger-link"
-        to="/"
-      >
-        <FontAwesomeIcon icon={faBars} color="white" />
-      </NavLink>
+      />
     </div>
   );
 }

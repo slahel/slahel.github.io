@@ -58,7 +58,7 @@ export default function Sidebar() {
         exact="true"
         activeclassname="active"
         className="hamburger-link"
-        to="/contact"
+        to="/"
       >
         <FontAwesomeIcon icon={faBars} color="white" />
       </NavLink>

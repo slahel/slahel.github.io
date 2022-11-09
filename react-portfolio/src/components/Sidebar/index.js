@@ -53,15 +53,15 @@ export default function Sidebar() {
         >
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
         </NavLink>
-        <NavLink
-          exact="true"
-          activeclassname="active"
-          className="hamburger-link"
-          to="/contact"
-        >
-          <FontAwesomeIcon icon={faBars} color="white" />
-        </NavLink>
       </nav>
+      <NavLink
+        exact="true"
+        activeclassname="active"
+        className="hamburger-link"
+        to="/contact"
+      >
+        <FontAwesomeIcon icon={faBars} color="white" />
+      </NavLink>
     </div>
   );
 }

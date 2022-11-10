@@ -74,7 +74,7 @@ export default function Sidebar() {
           className="close-link"
         />
       </nav>
-      <a href="javascript:void(0)">
+      <div>
         <FontAwesomeIcon
           icon={faBars}
           color="white"
@@ -82,7 +82,7 @@ export default function Sidebar() {
           onClick={() => setShowMenu(true)}
           className="hamburger-link"
         />
-      </a>
+      </div>
     </div>
   );
 }

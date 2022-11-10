@@ -124,6 +124,9 @@
       right: 12px;
       display: inline !important;
     }
+    .hamburger-link:hover {
+      cursor: pointer;
+    }
     .close-link {
       color: "white";
       display: block;
@@ -149,7 +152,7 @@
     }
     nav {
       background: #181818;
-      opacity: 0.95;
+      opacity: 0.97;
       top: 0;
       right: 0;
       width: 35%;
@@ -163,20 +166,17 @@
       }
 
       a {
-        top: 20%;
-        line-height: 45px;
         height: 30px !important;
-        padding: 5px 15% !important;
+        padding: 25px 15% !important;
         left: 30% !important;
-    
 
         &:after {
           opacity: 1;
           font-size: 12px;
-          font-weight: 600;
+          font-weight: 700;
           padding-right: 30px !important;
           position: absolute;
-          top: 15%;
+          top: 25px;
           left: -35%;
           display: inline;
           width: 100%;

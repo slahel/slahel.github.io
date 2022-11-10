@@ -16,7 +16,7 @@ h4 {
   opacity: 0.7;
   font-weight: 600;
 }
-footer {
+.home-soc {
   position: absolute;
   top: 95%;
   left: 45%;
@@ -26,17 +26,11 @@ footer {
     padding: 0 25px;
   }
 
-  .next-page {
-    color: white;
-    font-size: 18px;
-    font-weight: 700;
-    margin: 50px 0;
-    padding: 10px 20px;
-    border: solid 2px white;
-    transition: 400ms ease-in-out;
-  }
-  .next-page:hover {
-    color: white;
-    background-color: #ea5455;
+}
+@media only screen and (max-width: 850px) {
+  .home-soc {
+    top: 85% !important;
+    left: 33% !important;
+    font-size: 44px;
   }
 }

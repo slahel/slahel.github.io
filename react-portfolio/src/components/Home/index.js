@@ -22,7 +22,7 @@ export default function Home() {
         </Link>
       </div>
       <Logo />
-      <footer>
+      <div className="home-soc">
         <div className="icons-group">
           {" "}
           <a href="https://github.com/slahel" target="_blank" rel="noreferrer">
@@ -36,18 +36,7 @@ export default function Home() {
             <FontAwesomeIcon icon={faLinkedin} color="white" className="icon" />
           </a>
         </div>
-        <Link to="/contact">
-          {/* <div className="next-page">
-            <span>Next Page</span>
-            <br />
-            <FontAwesomeIcon
-              icon={faChevronDown}
-              color="white"
-              className="icon"
-            />
-          </div> */}
-        </Link>
-      </footer>
+      </div>
     </div>
   );
 }

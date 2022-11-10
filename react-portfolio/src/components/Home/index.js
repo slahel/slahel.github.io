@@ -2,7 +2,7 @@ import "./index.scss";
 import { Link } from "react-router-dom";
 import Logo from "./Logo";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faEye, faGear } from "@fortawesome/free-solid-svg-icons";
+import { faEye, faGear, faFile } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function Home() {
@@ -21,7 +21,25 @@ export default function Home() {
           Contact Me
         </Link>
       </div>
+
       <Logo />
+      <div className="mobile-footer">
+        {" "}
+        <Link to="/skills" className="link-button">
+          <FontAwesomeIcon icon={faGear} color="#ebe7e7" /> My Skills
+        </Link>
+        <Link to="/myworks" className="link-button">
+          <FontAwesomeIcon icon={faEye} color="#ebe7e7" /> My Work
+        </Link>
+        <a
+          className="link-button"
+          href="https://drive.google.com/file/d/1IUJ8PGNuffSiDOhcpvv0Wvl7mRqZzCz5/view?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FontAwesomeIcon icon={faFile} color="#ebe7e7" /> My Resume
+        </a>
+      </div>
       <div className="home-soc">
         <div className="icons-group">
           {" "}
@@ -37,15 +55,6 @@ export default function Home() {
           </a>
         </div>
       </div>
-      {/* <div className="mobile-footer">
-        {" "}
-        <Link to="/skills" className="link-button">
-          <FontAwesomeIcon icon={faGear} color="#ebe7e7" /> My Skills
-        </Link>
-        <Link to="/myworks" className="link-button">
-          <FontAwesomeIcon icon={faEye} color="#ebe7e7" /> My Work
-        </Link>
-      </div> */}
     </div>
   );
 }

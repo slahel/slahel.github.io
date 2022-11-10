@@ -2,7 +2,7 @@ import "./index.scss";
 import { Link } from "react-router-dom";
 import Logo from "./Logo";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-//import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
+// import { faEye, faGear } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function Home() {
@@ -37,6 +37,15 @@ export default function Home() {
           </a>
         </div>
       </div>
+      {/* <div className="mobile-footer">
+        {" "}
+        <Link to="/skills" className="link-button">
+          <FontAwesomeIcon icon={faGear} color="#ebe7e7" /> My Skills
+        </Link>
+        <Link to="/myworks" className="link-button">
+          <FontAwesomeIcon icon={faEye} color="#ebe7e7" /> My Work
+        </Link>
+      </div> */}
     </div>
   );
 }

@@ -160,6 +160,7 @@
       z-index: 3;
       padding: 45% 0;
       position: fixed;
+      transition: 0.5s;
 
       &.mobile-menu {
         display: block;

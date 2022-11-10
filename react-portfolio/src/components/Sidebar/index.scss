@@ -163,9 +163,12 @@
       }
 
       a {
-        line-height: 30px;
+        top: 20%;
+        line-height: 45px;
         height: 30px !important;
         padding: 5px 15% !important;
+        left: 30% !important;
+    
 
         &:after {
           opacity: 1;
@@ -173,8 +176,8 @@
           font-weight: 600;
           padding-right: 30px !important;
           position: absolute;
-          top: 16%;
-          left: -30%;
+          top: 15%;
+          left: -35%;
           display: inline;
           width: 100%;
         }

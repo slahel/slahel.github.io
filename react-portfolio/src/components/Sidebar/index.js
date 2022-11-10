@@ -14,24 +14,23 @@ import {
 import { useState } from "react";
 
 export default function Sidebar() {
-  // const [showMenu, setShowMenu] = useState(false);
+  const [showMenu, setShowMenu] = useState(false);
 
-  /* Open when someone clicks on the span element */
-  function openNav() {
-    document.getElementsByClassName("myNav").style.width = "100%";
-  }
+  //   /* Open when someone clicks on the span element */
+  // function openNav() {
+  //   document.getElementById("myNav").style.width = "100%";
+  // }
 
-  /* Close when someone clicks on the "x" symbol inside the overlay */
-  function closeNav() {
-    document.getElementsByClassName("myNav").style.width = "0%";
-  }
+  // /* Close when someone clicks on the "x" symbol inside the overlay */
+  // function closeNav() {
+  //   document.getElementById("myNav").style.width = "0%";
+  // }
   return (
     <div className="nav-bar">
       <Link className="logo" to="/">
         <img src={Logo} alt="logo" />
       </Link>
-      {/* <nav className={showMenu ? "mobile-menu" : ""}> */}
-      <nav className="myNav">
+      <nav className={showMenu ? "mobile-menu" : ""}>
         <NavLink exact="true" activeclassname="active" to="/">
           <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
         </NavLink>
@@ -71,8 +70,7 @@ export default function Sidebar() {
           icon={faClose}
           color="white"
           size="3x"
-          // onClick={() => setShowMenu(false)}
-          onClick={() => closeNav()}
+          onClick={() => setShowMenu(false)}
           className="close-link"
         />
       </nav>
@@ -81,8 +79,7 @@ export default function Sidebar() {
           icon={faBars}
           color="white"
           size="3x"
-          // onClick={() => setShowMenu(true)}
-          onClick={() => openNav()}
+          onClick={() => setShowMenu(true)}
           className="hamburger-link"
         />
       </a>

@@ -3,6 +3,7 @@ import "./index.scss";
 //import emailjs from "@emailjs/browser";
 import emailPic from "../../images/undraw_personal_email.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFile } from "@fortawesome/free-solid-svg-icons";
 import {
   faLinkedin,
   faGithub,
@@ -50,7 +51,16 @@ export default function Contact() {
           >
             Steph.lahellec@gmail.com
           </a>
+          <br></br>
         </h3>
+        <a
+          className="resume-button"
+          href="https://drive.google.com/file/d/1q8Oz089uO-eCyk_2Kq0-eTf3Z8oqIFDe/view?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FontAwesomeIcon icon={faFile} color="#ebe7e7" /> My Resume
+        </a>
         {/* <div className="contact-form ">
           <form ref={form} onSubmit={sendEmail}>
             <ul>

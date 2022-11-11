@@ -37,14 +37,6 @@ export default function Sidebar() {
         <NavLink
           exact="true"
           activeclassname="active"
-          className="about-link"
-          to="/about"
-        >
-          <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
-        </NavLink>
-        <NavLink
-          exact="true"
-          activeclassname="active"
           className="skills-link"
           to="/skills"
         >
@@ -57,6 +49,14 @@ export default function Sidebar() {
           to="/myworks"
         >
           <FontAwesomeIcon icon={faEye} color="#4d4d4e" />
+        </NavLink>
+        <NavLink
+          exact="true"
+          activeclassname="active"
+          className="about-link"
+          to="/about"
+        >
+          <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
         </NavLink>
         <NavLink
           exact="true"

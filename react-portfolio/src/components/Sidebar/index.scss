@@ -120,8 +120,8 @@
       z-index: 2;
       display: block;
       position: absolute;
-      top: 12px;
-      right: 12px;
+      top: 15%;
+      right: 10%;
       display: inline !important;
     }
     .hamburger-link:hover {
@@ -133,8 +133,8 @@
       z-index: 2;
       display: block;
       position: absolute;
-      top: 12%;
-      right: 12px;
+      top: 8%;
+      right: 18%;
     }
 
     img {
@@ -155,7 +155,7 @@
       opacity: 0.97;
       top: 0;
       right: 0;
-      width: 35%;
+      width: 45%;
       height: 100%;
       z-index: 3;
       padding: 45% 0;
@@ -169,7 +169,7 @@
       a {
         height: 30px !important;
         padding: 25px 15% !important;
-        left: 30% !important;
+        left: 20% !important;
 
         &:hover {
           color: white;

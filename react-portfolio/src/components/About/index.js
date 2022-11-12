@@ -8,9 +8,12 @@ export default function About() {
       <div className="text-side">
         <h1>About Me</h1>
         <p>
-          I'm a front-end developer looking for an opportunity in a tech
-          company. Previously, I worked in Sales and Marketing in the industries
-          of hospitality and tourism.
+          I'm a front-end developer with experience as a Technical Success
+          Manager in a Software company. <br></br>I have been providing
+          technical support to B2B clients, such as Samsung, L'Oréal, and
+          Adidas, by troubleshooting website pages and XML feeds or by
+          explaining technical concepts (limitations, requirements,
+          functionality) to a wide range of audiences.
         </p>
         <p>
           The Covid-19 pandemic pushed me to reflect on my career and where I
@@ -42,7 +45,7 @@ export default function About() {
           </a>{" "}
           profile or my{" "}
           <a
-            href="https://drive.google.com/file/d/1q8Oz089uO-eCyk_2Kq0-eTf3Z8oqIFDe/view?usp=sharing"
+            href="https://drive.google.com/file/d/1XNy6TyGs19Xj_ZcIJ8fZSLnZPgRgrgnB/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >

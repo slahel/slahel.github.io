@@ -55,7 +55,7 @@ export default function Contact() {
         </h3>
         <a
           className="resume-button"
-          href="https://drive.google.com/file/d/1q8Oz089uO-eCyk_2Kq0-eTf3Z8oqIFDe/view?usp=sharing"
+          href="https://docs.google.com/document/d/1Jtaxzri7DTXU8rpxpySloEtJMOFAqbu-_ec8pYxQT-o/edit?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >
